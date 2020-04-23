@@ -9,3 +9,11 @@ end
 def using_uniq(array)
   array.uniq
 end
+
+def using_flatten(nested_array)
+  nested_array.flatten
+end
+
+def using_delete_at(array, index)
+  array.delete_at(index)
+end
